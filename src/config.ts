@@ -13,11 +13,11 @@ export const siteConfig = {
   skills: ["Python", "Langchain", "Langgraph", "FastAPI", "RAG pipeline", "MCP", "Streamlit", "Docker", "Git" ],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "PodQueue",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "PodQueue is a self-hosted service that converts YouTube channels into podcast feeds.",
+      link: "https://github.com/SriviharReddy/podqueue",
+      skills: ["Python", "StreamLit"],
     },
     {
       name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
@@ -71,6 +71,8 @@ export const siteConfig = {
       school: "Anil Neerukonda Institute of Technology and Sciences",
       degree: "Bachelor of Technology in Electronics and Communications Engineering",
       dateRange: "2016 - 2020",
+      achievements: [
+      ],
     },
     {
       school: "Amity University Online",
