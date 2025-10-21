@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Sai Srivihar Reddy K",
-  title: "GEnerative AI Developer",
+  title: "Generative AI Developer",
   description: "Portfolio website of Sai Srivihar",
   accentColor: "#1d4ed8",
   social: {
@@ -68,23 +68,17 @@ export const siteConfig = {
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
-      achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
+      school: "Anil Neerukonda Institute of Technology and Sciences",
+      degree: "Bachelor of Technology in Electronics and Communications Engineering",
+      dateRange: "2016 - 2020",
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "Amity University Online",
+      degree: "Post Graduate Diploma in Big Data and Machine Learning",
+      dateRange: "2021",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Completed 200+ hours of coursework",
+        "Earned a Data Analysis certificate from eCornell",
       ],
     },
   ],
