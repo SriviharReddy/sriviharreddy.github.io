@@ -1,17 +1,16 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Sai Srivihar Reddy K",
+  title: "GEnerative AI Developer",
+  description: "Portfolio website of Sai Srivihar",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "kssreddy1999@gmail.com",
+    linkedin: "https://www.linkedin.com/in/srivihar-reddy/",
+    github: "https://github.com/SriviharReddy",
   },
   aboutMe:
     "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+  skills: ["Python", "Langchain", "Langgraph", "FastAPI", "RAG pipeline", "MCP", "Streamlit", "Docker", "Git" ],
   projects: [
     {
       name: "AI Dev Roundup Newsletter",
