@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Sai Srivihar Reddy K",
-  title: "Generative AI Developer",
+  title: "Generative & Agentic AI Developer",
   description: "Portfolio website of Sai Srivihar",
   accentColor: "#1d4ed8",
   social: {
