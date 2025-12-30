@@ -13,6 +13,13 @@ export const siteConfig = {
   skills: ["Python", "Langchain", "Langgraph", "LangSmith", "FastAPI", "RAG pipeline", "MCP", "Streamlit", "Docker", "Git" ],
   projects: [
     {
+      name: "MyAPI Chat",
+      description:
+        "A multi-provider AI chat interface supporting Google, OpenAI, Anthropic, Groq, and OpenRouter APIs. Features persistent chat history, streaming responses, and LangGraph-based conversation management for easy extension with RAG or multi-agent flows.",
+      link: "https://github.com/SriviharReddy/GenAI_GUI",
+      skills: ["Python", "Streamlit", "LangGraph", "LangChain", "SQLite"],
+    },
+    {
       name: "RAG Ultra",
       description:
         "Advanced multimodal RAG system for scanned documents using DeepSeek OCR, parent-document retrieval, VL models, re-ranking, and LangSmith observability to improve reliability.",
