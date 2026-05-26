@@ -13,25 +13,39 @@ export const siteConfig = {
   skills: ["Python", "Langchain", "Langgraph", "LangSmith", "FastAPI", "RAG pipeline", "MCP", "Streamlit", "Docker", "Git" ],
   projects: [
     {
-      name: "MyAPI Chat",
-      description:
-        "A multi-provider AI chat interface supporting Google, OpenAI, Anthropic, Groq, and OpenRouter APIs. Features persistent chat history, streaming responses, and LangGraph-based conversation management for easy extension with RAG or multi-agent flows.",
-      link: "https://github.com/SriviharReddy/GenAI_GUI",
-      skills: ["Python", "Streamlit", "LangGraph", "LangChain", "SQLite"],
-    },
-    {
       name: "RAG Ultra",
       description:
-        "Advanced multimodal RAG system for scanned documents using DeepSeek OCR, parent-document retrieval, VL models, re-ranking, and LangSmith observability to improve reliability.",
+        "State-of-the-Art (SOTA) agentic Retrieval-as-a-Service (RaaS) microservice built with LangGraph and LangChain. Implements layout-aware DeepSeek-OCR-2, Anthropic's Contextual Retrieval, Single-Database Parent Payloads, and self-correcting evaluation loops.",
       link: "https://github.com/SriviharReddy/RAG-Ultra",
-      skills: ["RAG", "LangChain", "LangSmith", "DeepSeek", "Streamlit"],
+      skills: ["RAG", "LangGraph", "LangChain", "DeepSeek", "Python", "ChromaDB"],
     },
     {
-      name: "Support Resolution Agent",
+      name: "SAP Warehouse Agent",
       description:
-        "A support-issue diagnosis agent using tool-based reasoning with LangGraph structured flows to classify urgency, fill missing info, select resolution steps, and escalate to humans when required.",
-      link: "https://github.com/SriviharReddy/Support-Resolution-Agent",
-      skills: ["LangChain", "LangGraph", "Python", "Generative AI", "Tool use"],
+        "Conversational AI agent for querying SAP Warehouse Management systems. Built with LangGraph, DeepSeek V4, and Streamlit.",
+      link: "https://github.com/SriviharReddy/SAP-Warehouse-Agent",
+      skills: ["LangGraph", "DeepSeek", "Streamlit", "SAP", "Python"],
+    },
+    {
+      name: "Project Assistant",
+      description:
+        "A hybrid private-cloud RAG Project Assistant utilizing LangGraph v1.2+, ChromaDB, Ollama embeddings, and DeepSeek V4 Flash with automated evaluation.",
+      link: "https://github.com/SriviharReddy/Project-Assistant",
+      skills: ["LangGraph", "ChromaDB", "Ollama", "DeepSeek", "Python"],
+    },
+    {
+      name: "PodQueue",
+      description:
+        "PodQueue is a self-hosted service that converts YouTube channels into podcast feeds.",
+      link: "https://github.com/SriviharReddy/podqueue",
+      skills: ["Python", "Streamlit", "YouTube API"],
+    },
+    {
+      name: "Loomscribe",
+      description:
+        "🌌 A premium collaborative fiction writing chat interface powered by DeepSeek. Features system prompt profiles, infinite message versioning, Magic Rewrite, and a serverless standalone Android APK port.",
+      link: "https://github.com/SriviharReddy/loomscribe",
+      skills: ["HTML/CSS", "Vanilla JS", "Node.js", "Capacitor", "DeepSeek"],
     },
     {
       name: "Insight Fusion Agent",
@@ -41,12 +55,12 @@ export const siteConfig = {
       skills: ["Python", "LangChain", "LangGraph", "LLM orchestration", "RAG"],
     },
     {
-      name: "PodQueue",
+      name: "Support Resolution Agent",
       description:
-        "PodQueue is a self-hosted service that converts YouTube channels into podcast feeds.",
-      link: "https://github.com/SriviharReddy/podqueue",
-      skills: ["Python", "StreamLit"],
-    }
+        "A support-issue diagnosis agent using tool-based reasoning with LangGraph structured flows to classify urgency, fill missing info, select resolution steps, and escalate to humans when required.",
+      link: "https://github.com/SriviharReddy/Support-Resolution-Agent",
+      skills: ["LangChain", "LangGraph", "Python", "Generative AI", "Tool use"],
+    },
   ],
   experience: [
     {
