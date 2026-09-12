@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Srivihar Reddy · Agentic AI Engineer</title>
+  <meta name="description" content="Srivihar Reddy builds agentic AI systems: RAG pipelines, tool-using agents, and the evaluation loops that keep them honest." />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a class="nav__mark" href="#top" aria-label="Back to top">
+        <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true">
+          <rect width="32" height="32" rx="7" fill="var(--bg-1)"/>
+          <line x1="9" y1="22" x2="16" y2="9" stroke="var(--accent)" stroke-width="1.6"/>
+          <line x1="16" y1="9" x2="23" y2="22" stroke="var(--accent)" stroke-width="1.6"/>
+          <line x1="9" y1="22" x2="23" y2="22" stroke="var(--accent)" stroke-width="1.6" stroke-opacity="0.55"/>
+          <circle cx="16" cy="9" r="3" fill="var(--accent)"/>
+          <circle cx="9" cy="22" r="3" fill="var(--text)"/>
+          <circle cx="23" cy="22" r="3" fill="var(--text)"/>
+        </svg>
+        <span>Srivihar Reddy</span>
+      </a>
+
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#experience">Experience</a>
+        <a href="#process">Process</a>
+        <a href="#work">Work</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav__actions">
+        <a class="nav__icon-link" href="https://github.com/SriviharReddy" target="_blank" rel="noopener" aria-label="GitHub profile">
+          <svg viewBox="0 0 256 256" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M208.31,75.68A59.78,59.78,0,0,0,202.93,28,8,8,0,0,0,196,24a59.75,59.75,0,0,0-48,24H124A59.75,59.75,0,0,0,76,24a8,8,0,0,0-6.93,4,59.78,59.78,0,0,0-5.38,47.68A58.14,58.14,0,0,0,56,104v8a56.06,56.06,0,0,0,48.44,55.47A39.8,39.8,0,0,0,96,192v8H72a24,24,0,0,1-24-24A40,40,0,0,0,8,136a8,8,0,0,0,0,16,24,24,0,0,1,24,24,40,40,0,0,0,40,40H96v16a8,8,0,0,0,16,0V192a24,24,0,0,1,48,0v40a8,8,0,0,0,16,0V192a39.8,39.8,0,0,0-8.44-24.53A56.06,56.06,0,0,0,216,112v-8A58.14,58.14,0,0,0,208.31,75.68ZM200,112a40,40,0,0,1-40,40H112a40,40,0,0,1-40-40v-8a41.74,41.74,0,0,1,6.9-22.48A8,8,0,0,0,80,73.83a43.81,43.81,0,0,1,.79-33.58,43.88,43.88,0,0,1,32.32,20.06A8,8,0,0,0,119.82,64h32.35a8,8,0,0,0,6.74-3.69,43.87,43.87,0,0,1,32.32-20.06A43.81,43.81,0,0,1,192,73.83a8.09,8.09,0,0,0,1,7.65A41.72,41.72,0,0,1,200,104Z"/></svg>
+        </a>
+        <button class="nav__menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+          <svg class="icon-list" viewBox="0 0 256 256" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"/></svg>
+          <svg class="icon-x" viewBox="0 0 256 256" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#experience">Experience</a>
+      <a href="#process">Process</a>
+      <a href="#work">Work</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+      <a href="https://github.com/SriviharReddy" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="hero__inner">
+        <div class="hero__copy">
+          <h1 class="hero__headline">Agents that reason,<br>retrieve, and get things done.</h1>
+          <p class="hero__subtext">I design and ship agentic AI systems: RAG pipelines, tool-using agents, and the evaluation loops that keep them honest.</p>
+          <div class="hero__ctas">
+            <a class="btn btn--primary" href="#work">View work</a>
+            <a class="btn btn--ghost" href="#contact">Contact</a>
+          </div>
+        </div>
+        <div class="hero__visual" aria-hidden="true">
+          <canvas id="agentGraph"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="experience" id="experience">
+      <div class="experience__head">
+        <h2>Where the work has happened.</h2>
+      </div>
+
+      <div class="experience__list">
+        <article class="exp-row">
+          <div class="exp-row__when">
+            <span class="exp-row__dates">Jun 2026 - Present</span>
+          </div>
+          <div class="exp-row__what">
+            <h3>Agentic AI Engineer</h3>
+            <p class="exp-row__org">Deloitte USI</p>
+            <p>Building production agent systems: retrieval pipelines, evaluation loops, and the tooling that lets them run unsupervised.</p>
+          </div>
+        </article>
+
+        <article class="exp-row">
+          <div class="exp-row__when">
+            <span class="exp-row__dates">Dec 2021 - May 2026</span>
+          </div>
+          <div class="exp-row__what">
+            <h3>Systems Engineer</h3>
+            <p class="exp-row__org">Tata Consultancy Services</p>
+            <p>Four-plus years in enterprise systems engineering, the production discipline that now shapes how I ship agents.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROCESS : horizontal scroll-hijack -->
+    <section class="process" id="process">
+      <div class="process__head">
+        <h2>The build loop, every time.</h2>
+        <p>Same five moves, whether it's a retrieval service or a warehouse copilot.</p>
+      </div>
+
+      <div class="process__wrap" id="processWrap">
+        <div class="process__track" id="processTrack">
+
+          <article class="process__panel">
+            <span class="process__num">01</span>
+            <h3>Frame the failure.</h3>
+            <p>Before any orchestration code, map the ways the system can go wrong: bad retrieval, hallucinated citations, runaway tool calls, blown budgets.</p>
+          </article>
+
+          <article class="process__panel">
+            <span class="process__num">02</span>
+            <h3>Design the graph.</h3>
+            <p>Model the workflow as a state machine, not a script. Nodes for retrieval, judgment, and correction. Edges for retries and human hand-offs.</p>
+          </article>
+
+          <article class="process__panel">
+            <span class="process__num">03</span>
+            <h3>Build the smallest agent.</h3>
+            <p>Ship the thinnest version that could possibly work, then add tools, memory, and guardrails only as the evals demand them.</p>
+          </article>
+
+          <article class="process__panel">
+            <span class="process__num">04</span>
+            <h3>Grade every run.</h3>
+            <p>An LLM-as-judge scores groundedness and relevance against a strict schema, with a human spot check on anything borderline.</p>
+          </article>
+
+          <article class="process__panel">
+            <span class="process__num">05</span>
+            <h3>Ship it observable.</h3>
+            <p>Stream state over SSE, log every decision the graph makes, and leave behind a dashboard someone else can actually read.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED WORK : sticky stack -->
+    <section class="work" id="work">
+      <div class="work__head">
+        <h2>Selected builds.</h2>
+        <p>Five systems, five different failure modes to design around.</p>
+      </div>
+
+      <div class="work__stack" id="workStack">
+
+        <article class="work-card">
+          <div class="work-card__inner">
+            <div class="work-card__text">
+              <h3>RAG-Ultra</h3>
+              <p>A retrieval-as-a-service microservice with corrective RAG, contextual retrieval, and an LLM-as-judge fast path for high-confidence answers.</p>
+              <ul class="tags">
+                <li>LangGraph</li><li>FastAPI</li><li>Corrective RAG</li><li>SSE</li>
+              </ul>
+              <a class="link-arrow" href="https://github.com/SriviharReddy/RAG-Ultra" target="_blank" rel="noopener">
+                View repository
+                <svg viewBox="0 0 256 256" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z"/></svg>
+              </a>
+            </div>
+            <div class="work-card__media">
+              <div class="diagram">
+                <div class="diagram__row"><span>Document</span><span class="arrow">→</span><span>Vision OCR</span><span class="arrow">→</span><span>Chroma</span></div>
+                <div class="diagram__row"><span>Query</span><span class="arrow">→</span><span>Condenser</span><span class="arrow">→</span><span>Retrieve</span></div>
+                <div class="diagram__loop">Retrieve ⇄ Judge <span class="diagram__muted">(retry on low confidence)</span></div>
+                <div class="diagram__row"><span>Judge: pass</span><span class="arrow">→</span><span>Generate</span><span class="arrow">→</span><span>Groundedness check</span></div>
+                <div class="diagram__row diagram__row--final"><span>Answer + inline citations</span></div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <div class="work-card__inner">
+            <div class="work-card__text">
+              <h3>SpendWise MCP</h3>
+              <p>An MCP tool server paired with a live financial dashboard that watches the agent reason, call tools, and update budgets in real time.</p>
+              <ul class="tags">
+                <li>FastMCP</li><li>LangGraph</li><li>SSE</li><li>Observability</li>
+              </ul>
+              <a class="link-arrow" href="https://github.com/SriviharReddy/spendwise-mcp" target="_blank" rel="noopener">
+                View repository
+                <svg viewBox="0 0 256 256" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z"/></svg>
+              </a>
+            </div>
+            <div class="work-card__media">
+              <img src="assets/img/projects/spendwise.png" alt="SpendWise MCP agent observability dashboard, showing tool calls, budget health, and category breakdown" loading="lazy" />
+            </div>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <div class="work-card__inner">
+            <div class="work-card__text">
+              <h3>Agentic Task Manager</h3>
+              <p>Turns screenshots, links, and voice notes into a prioritized todo list, with a human-in-the-loop gate before anything hits the database.</p>
+              <ul class="tags">
+                <li>LangGraph</li><li>Gemini</li><li>FastAPI</li><li>React</li>
+              </ul>
+              <a class="link-arrow" href="https://github.com/SriviharReddy/Agentic-Taskmanager" target="_blank" rel="noopener">
+                View repository
+                <svg viewBox="0 0 256 256" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z"/></svg>
+              </a>
+            </div>
+            <div class="work-card__media">
+              <img src="assets/img/projects/taskmanager.png" alt="Agentic Task Manager interface showing Kanban board and Eisenhower matrix" loading="lazy" />
+            </div>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <div class="work-card__inner">
+            <div class="work-card__text">
+              <h3>Project Assistant</h3>
+              <p>A hybrid RAG assistant that keeps retrieval and embeddings local, and only calls the cloud for synthesis and grading.</p>
+              <ul class="tags">
+                <li>LangGraph</li><li>Chroma</li><li>Ollama</li><li>DeepSeek</li>
+              </ul>
+              <a class="link-arrow" href="https://github.com/SriviharReddy/Project-Assistant" target="_blank" rel="noopener">
+                View repository
+                <svg viewBox="0 0 256 256" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z"/></svg>
+              </a>
+            </div>
+            <div class="work-card__media">
+              <div class="diagram">
+                <div class="diagram__row"><span>Retrieve</span><span class="arrow">→</span><span>Generate</span><span class="arrow">→</span><span>Evaluate</span></div>
+                <div class="diagram__loop">fail, loop &lt; 3 <span class="arrow">→</span> Web Search <span class="arrow">→</span> Generate</div>
+                <div class="diagram__row diagram__row--final"><span>pass or max loops</span><span class="arrow">→</span><span>End</span></div>
+                <div class="diagram__row diagram__row--muted"><span>local Ollama embeddings</span><span class="arrow">→</span><span>Chroma DB</span></div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <div class="work-card__inner">
+            <div class="work-card__text">
+              <h3>SAP Warehouse Agent</h3>
+              <p>A conversational cockpit that turns plain language into read-only SAP warehouse queries: stock levels, picking tasks, and inbound freight.</p>
+              <ul class="tags">
+                <li>LangGraph</li><li>DeepSeek</li><li>SQLite</li><li>Streamlit</li>
+              </ul>
+              <a class="link-arrow" href="https://github.com/SriviharReddy/SAP-Warehouse-Agent" target="_blank" rel="noopener">
+                View repository
+                <svg viewBox="0 0 256 256" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z"/></svg>
+              </a>
+            </div>
+            <div class="work-card__media">
+              <div class="diagram">
+                <div class="diagram__row"><span>User</span><span class="arrow">→</span><span>Auth</span><span class="arrow">→</span><span>Agent</span></div>
+                <div class="diagram__row"><span>Agent</span><span class="arrow">→</span><span>7 read-only SAP tools</span></div>
+                <div class="diagram__row diagram__row--muted"><span>stock, bins, inbound freight, outbound orders, picking</span></div>
+                <div class="diagram__row diagram__row--final"><span>Async SQLite checkpoint</span><span class="arrow">→</span><span>Response</span></div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills" id="skills">
+      <div class="skills__head">
+        <h2>What I actually spend my time on.</h2>
+      </div>
+
+      <div class="skills__grid">
+        <div class="skill-card skill-card--wide">
+          <h3>Agent orchestration</h3>
+          <p>State machines built in LangGraph: conditional edges, retry loops, and human-in-the-loop interrupts for anything that shouldn't run unsupervised.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Retrieval architectures</h3>
+          <p>Corrective RAG, contextual retrieval, reciprocal rank fusion, and layout-aware ingestion for PDFs, tables, and diagrams.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Evaluation and guardrails</h3>
+          <p>Structured LLM-as-judge grading and groundedness checks, with a fast path for answers the system already trusts.</p>
+        </div>
+        <div class="skill-card skill-card--wide">
+          <h3>Tool use and protocols</h3>
+          <p>MCP servers, function-calling agents, and tool integrations that talk to real systems, including SAP warehouse APIs and live budgets.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Serving and observability</h3>
+          <p>FastAPI gateways, SSE streaming, and dashboards that show every decision the graph makes as it makes it.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Model flexibility</h3>
+          <p>DeepSeek, Gemini, OpenAI-compatible endpoints, and local Ollama embeddings, swapped per task and per budget.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- STACK MARQUEE -->
+    <section class="stack" aria-label="Technology stack">
+      <p class="stack__label">Working stack</p>
+      <div class="marquee">
+        <div class="marquee__track">
+          <span class="marquee__item"><img src="assets/icons/stack/python.svg" alt="" /> Python</span>
+          <span class="marquee__item"><img src="assets/icons/stack/langchain.svg" alt="" /> LangChain</span>
+          <span class="marquee__item"><img src="assets/icons/stack/fastapi.svg" alt="" /> FastAPI</span>
+          <span class="marquee__item"><img src="assets/icons/stack/googlegemini.svg" alt="" /> Gemini</span>
+          <span class="marquee__item"><img src="assets/icons/stack/react.svg" alt="" /> React</span>
+          <span class="marquee__item"><img src="assets/icons/stack/typescript.svg" alt="" /> TypeScript</span>
+          <span class="marquee__item"><img src="assets/icons/stack/docker.svg" alt="" /> Docker</span>
+          <span class="marquee__item"><img src="assets/icons/stack/sqlite.svg" alt="" /> SQLite</span>
+          <!-- duplicate set for seamless loop -->
+          <span class="marquee__item"><img src="assets/icons/stack/python.svg" alt="" /> Python</span>
+          <span class="marquee__item"><img src="assets/icons/stack/langchain.svg" alt="" /> LangChain</span>
+          <span class="marquee__item"><img src="assets/icons/stack/fastapi.svg" alt="" /> FastAPI</span>
+          <span class="marquee__item"><img src="assets/icons/stack/googlegemini.svg" alt="" /> Gemini</span>
+          <span class="marquee__item"><img src="assets/icons/stack/react.svg" alt="" /> React</span>
+          <span class="marquee__item"><img src="assets/icons/stack/typescript.svg" alt="" /> TypeScript</span>
+          <span class="marquee__item"><img src="assets/icons/stack/docker.svg" alt="" /> Docker</span>
+          <span class="marquee__item"><img src="assets/icons/stack/sqlite.svg" alt="" /> SQLite</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <div class="contact__inner">
+        <h2>Have a hard agent problem?</h2>
+        <p>Open to agentic AI engineering roles and contract builds.</p>
+        <div class="contact__ctas">
+          <a class="btn btn--primary" href="mailto:kssreddy1999@gmail.com">Contact</a>
+          <a class="btn btn--ghost" href="https://github.com/SriviharReddy" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Srivihar Reddy. All rights reserved.</p>
+  </footer>
+
+  <script src="assets/vendor/gsap.min.js"></script>
+  <script src="assets/vendor/ScrollTrigger.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
